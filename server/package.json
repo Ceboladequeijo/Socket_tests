@@ -1,0 +1,28 @@
+{
+  "name": "teste_de_socket",
+  "version": "1.0.0",
+  "description": "Projeto para testar sockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node .",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ceboladequeijo/Socket_tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ceboladequeijo/Socket_tests/issues"
+  },
+  "homepage": "https://github.com/Ceboladequeijo/Socket_tests#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.0"
+  }
+}
